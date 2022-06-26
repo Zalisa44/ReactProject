@@ -9,6 +9,7 @@ ${props => props.theme === 'dark' && css`
     &:hover {
         background:blue;
         color:white;
+        font-size:20px;
     }
     `
     }
