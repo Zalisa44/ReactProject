@@ -8,6 +8,7 @@ ${props => props.theme === 'dark' && css`
     color:#fff;
     &:hover {
         background:blue;
+        color:white;
     }
     `
     }
