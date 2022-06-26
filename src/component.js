@@ -9,7 +9,8 @@ ${props => props.theme === 'dark' && css`
     &:hover {
         background:blue;
         color:white;
-        font-size:20px;
+        font-size:40px;
+        font-weight:10px;
     }
     `
     }
