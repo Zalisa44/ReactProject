@@ -1,6 +1,8 @@
 import Test from './Test';
 import styles from './App.module.css'
 import { Title } from './component'
+import Bootstrap from './Bootstrap';
+
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
       </p>
       <Test className='App'></Test>
       {process.env.NODE_ENV === 'production'}
+
+      <Bootstrap></Bootstrap>
 
     </div>);
 
